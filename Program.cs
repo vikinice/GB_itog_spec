@@ -31,3 +31,17 @@ string[] FillResultArray(string[] array, int count)
     }
     return result;
 }
+string[] arrayFirst =  {"hello", "2", "world", ":-)"};
+int countFirst = CountStringLessThreeChar(arrayFirst);
+string[] resultFirst =  FillResultArray(arrayFirst,countFirst);
+PrintArray(resultFirst);
+
+string[] arraySecond = {"1234", "1567", "-2", "computer science"};
+int countSecond  = CountStringLessThreeChar(arraySecond);
+string[] resultSecond = FillResultArray(arraySecond,countSecond);
+PrintArray(resultSecond);
+
+string[] arrayThird = {"Russia", "Denmark", "Kazan"};
+int countThird = CountStringLessThreeChar(arrayThird);
+string[] resultThird = FillResultArray(arrayThird, countThird);
+PrintArray(resultThird);
